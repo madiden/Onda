@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293D032F162705ED00952E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293D032E162705ED00952E1E /* UIKit.framework */; };
+		293D0331162705ED00952E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293D0330162705ED00952E1E /* Foundation.framework */; };
+		293D0333162705ED00952E1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293D0332162705ED00952E1E /* CoreGraphics.framework */; };
+		293D0339162705ED00952E1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 293D0337162705ED00952E1E /* InfoPlist.strings */; };
+		293D033B162705ED00952E1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 293D033A162705ED00952E1E /* main.m */; };
+		293D033F162705ED00952E1E /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 293D033E162705ED00952E1E /* FSAppDelegate.m */; };
+		293D0342162705ED00952E1E /* FSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293D0341162705ED00952E1E /* FSFirstViewController.m */; };
+		293D0344162705ED00952E1E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 293D0343162705ED00952E1E /* first.png */; };
+		293D0346162705ED00952E1E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 293D0345162705ED00952E1E /* first@2x.png */; };
+		293D0349162705ED00952E1E /* FSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293D0348162705ED00952E1E /* FSSecondViewController.m */; };
+		293D034B162705ED00952E1E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 293D034A162705ED00952E1E /* second.png */; };
+		293D034D162705ED00952E1E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 293D034C162705ED00952E1E /* second@2x.png */; };
+		293D0350162705ED00952E1E /* FSFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293D034E162705ED00952E1E /* FSFirstViewController.xib */; };
+		293D0353162705ED00952E1E /* FSSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293D0351162705ED00952E1E /* FSSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		293D032A162705ED00952E1E /* Onda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293D032E162705ED00952E1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		293D0330162705ED00952E1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		293D0332162705ED00952E1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		293D0336162705ED00952E1E /* Onda-Info.plist */ = {isa = PBXFileReference; path = "Onda-Info.plist"; sourceTree = "<group>"; };
+		293D0338162705ED00952E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		293D033A162705ED00952E1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		293D033C162705ED00952E1E /* Onda-Prefix.pch */ = {isa = PBXFileReference; path = "Onda-Prefix.pch"; sourceTree = "<group>"; };
+		293D033D162705ED00952E1E /* FSAppDelegate.h */ = {isa = PBXFileReference; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		293D033E162705ED00952E1E /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		293D0340162705ED00952E1E /* FSFirstViewController.h */ = {isa = PBXFileReference; path = FSFirstViewController.h; sourceTree = "<group>"; };
+		293D0341162705ED00952E1E /* FSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSFirstViewController.m; sourceTree = "<group>"; };
+		293D0343162705ED00952E1E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		293D0345162705ED00952E1E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		293D0347162705ED00952E1E /* FSSecondViewController.h */ = {isa = PBXFileReference; path = FSSecondViewController.h; sourceTree = "<group>"; };
+		293D0348162705ED00952E1E /* FSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSecondViewController.m; sourceTree = "<group>"; };
+		293D034A162705ED00952E1E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		293D034C162705ED00952E1E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		293D034F162705ED00952E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FSFirstViewController.xib; sourceTree = "<group>"; };
+		293D0352162705ED00952E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FSSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293D0327162705ED00952E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293D032F162705ED00952E1E /* UIKit.framework in Frameworks */,
+				293D0331162705ED00952E1E /* Foundation.framework in Frameworks */,
+				293D0333162705ED00952E1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293D031F162705ED00952E1E = {
+			isa = PBXGroup;
+			children = (
+				293D0334162705ED00952E1E /* Onda */,
+				293D032D162705ED00952E1E /* Frameworks */,
+				293D032B162705ED00952E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293D032B162705ED00952E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293D032A162705ED00952E1E /* Onda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293D032D162705ED00952E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293D032E162705ED00952E1E /* UIKit.framework */,
+				293D0330162705ED00952E1E /* Foundation.framework */,
+				293D0332162705ED00952E1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		293D0334162705ED00952E1E /* Onda */ = {
+			isa = PBXGroup;
+			children = (
+				293D033D162705ED00952E1E /* FSAppDelegate.h */,
+				293D033E162705ED00952E1E /* FSAppDelegate.m */,
+				293D0340162705ED00952E1E /* FSFirstViewController.h */,
+				293D0341162705ED00952E1E /* FSFirstViewController.m */,
+				293D0343162705ED00952E1E /* first.png */,
+				293D0345162705ED00952E1E /* first@2x.png */,
+				293D0347162705ED00952E1E /* FSSecondViewController.h */,
+				293D0348162705ED00952E1E /* FSSecondViewController.m */,
+				293D034A162705ED00952E1E /* second.png */,
+				293D034C162705ED00952E1E /* second@2x.png */,
+				293D034E162705ED00952E1E /* FSFirstViewController.xib */,
+				293D0351162705ED00952E1E /* FSSecondViewController.xib */,
+				293D0335162705ED00952E1E /* Supporting Files */,
+			);
+			path = Onda;
+			sourceTree = "<group>";
+		};
+		293D0335162705ED00952E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				293D0336162705ED00952E1E /* Onda-Info.plist */,
+				293D0337162705ED00952E1E /* InfoPlist.strings */,
+				293D033A162705ED00952E1E /* main.m */,
+				293D033C162705ED00952E1E /* Onda-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293D0329162705ED00952E1E /* Onda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293D0356162705ED00952E1E /* Build configuration list for PBXNativeTarget "Onda" */;
+			buildPhases = (
+				293D0326162705ED00952E1E /* Sources */,
+				293D0327162705ED00952E1E /* Frameworks */,
+				293D0328162705ED00952E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Onda;
+			productName = Onda;
+			productReference = 293D032A162705ED00952E1E /* Onda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293D0321162705ED00952E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 293D0324162705ED00952E1E /* Build configuration list for PBXProject "Onda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 293D031F162705ED00952E1E;
+			productRefGroup = 293D032B162705ED00952E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293D0329162705ED00952E1E /* Onda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293D0328162705ED00952E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293D0339162705ED00952E1E /* InfoPlist.strings in Resources */,
+				293D0344162705ED00952E1E /* first.png in Resources */,
+				293D0346162705ED00952E1E /* first@2x.png in Resources */,
+				293D034B162705ED00952E1E /* second.png in Resources */,
+				293D034D162705ED00952E1E /* second@2x.png in Resources */,
+				293D0350162705ED00952E1E /* FSFirstViewController.xib in Resources */,
+				293D0353162705ED00952E1E /* FSSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293D0326162705ED00952E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293D033B162705ED00952E1E /* main.m in Sources */,
+				293D033F162705ED00952E1E /* FSAppDelegate.m in Sources */,
+				293D0342162705ED00952E1E /* FSFirstViewController.m in Sources */,
+				293D0349162705ED00952E1E /* FSSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		293D0337162705ED00952E1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293D0338162705ED00952E1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		293D034E162705ED00952E1E /* FSFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293D034F162705ED00952E1E /* en */,
+			);
+			name = FSFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		293D0351162705ED00952E1E /* FSSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293D0352162705ED00952E1E /* en */,
+			);
+			name = FSSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293D0354162705ED00952E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		293D0355162705ED00952E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293D0357162705ED00952E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Onda/Onda-Prefix.pch";
+				INFOPLIST_FILE = "Onda/Onda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		293D0358162705ED00952E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Onda/Onda-Prefix.pch";
+				INFOPLIST_FILE = "Onda/Onda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293D0324162705ED00952E1E /* Build configuration list for PBXProject "Onda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293D0354162705ED00952E1E /* Debug */,
+				293D0355162705ED00952E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293D0356162705ED00952E1E /* Build configuration list for PBXNativeTarget "Onda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293D0357162705ED00952E1E /* Debug */,
+				293D0358162705ED00952E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293D0321162705ED00952E1E /* Project object */;
+}
